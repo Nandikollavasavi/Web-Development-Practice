@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Transition</title>
+        <style>
+            .box{
+                width:200px;
+                height:200px;
+                text-align: center;
+                line-height: 190px;
+                margin-top: 30px;
+                font-size: 30px;
+                background-color: red;
+
+                animation:colorChange 3s infinite;
+            }
+            @keyframes colorChange{
+                0%{
+                    background:blue;
+                }
+
+                50%{
+                    background:red;
+                }
+
+                100%{
+                    background:purple;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box">Vasavi</div> 
+    </body>
+</html>

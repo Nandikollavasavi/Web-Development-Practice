@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Transition</title>
+        <style>
+            .container{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .card{
+                width: 200px;
+                height:150px;
+                text-align: center;
+                line-height: 140px;
+                margin-top: 50px;
+                border: 2px solid black;
+                border-radius:40px;
+            
+                font-size: 35px;
+
+                background-color: darkblue;
+                color: white;
+                transition:1s;
+            }
+
+            .card:hover{
+                background-color: green;
+
+                transform: scale(1.2);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="card">It's Me</div>
+        </div>
+    </body>
+</html>
