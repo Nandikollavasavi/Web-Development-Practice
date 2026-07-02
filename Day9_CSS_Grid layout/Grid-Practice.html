@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grid layout</title>
+        <style>
+            .container{
+                display: grid;
+
+                grid-template-columns: 200px 200px 200px;
+                
+                gap:20px;
+                
+                align-items:center ;
+            }
+
+            .box{
+                background-color: yellowgreen;
+                padding: 20px;
+                border: 2px solid black;
+
+                box-shadow:5px 5px 10px gray;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="box">grid</div>
+            <div class="box">grid-template</div>
+            <div class="box">gap</div>
+            <div class="box">justify-items</div>
+            <div class="box">align-item</div>
+            <div class="box">Shadow</div>
+        </div>
+    </body>
+</html>

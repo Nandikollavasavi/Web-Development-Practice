@@ -1,0 +1,82 @@
+body{
+    background-color: lightgray;
+}
+
+h1{
+    text-align: center;
+    font-size: 36px;
+    color: darkblue;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+
+    justify-items: center;
+
+}
+
+.card{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    border-radius: 15px;
+
+    padding:20px;
+    text-align: center;
+
+    transition: 1s;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+
+    box-shadow: 10px 10px 10px gray;
+}
+
+.card img{
+    height:150px;
+    width:150px;
+    
+    display: block;
+    margin: auto;
+
+    margin-bottom: 20px;
+
+    align-items: center;
+
+    transition:0.3s;
+}
+
+.card img:hover{
+    transform:scale(1.05);
+}
+
+.card h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+.card p{
+    font-size: 25px;
+}
+
+.card button{
+    text-align: center;
+    width: 150px;
+    height: 60px;
+    border-radius: 50px;
+    margin: 10px;
+    font-size: 18px;
+    background-color: yellow;
+    color: black;
+
+    cursor: pointer;
+
+}
+
+.card button:hover{
+    background:rgb(241, 189, 2);
+    transform:scale(1.05);
+}
